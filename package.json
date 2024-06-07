@@ -1,0 +1,15 @@
+{
+  "name": "@ares/os",
+  "version": "1.0.0",
+  "description": "Operating system utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "operating",
+    "system"
+  ],
+  "author": "Roberto Stefani",
+  "license": "MIT"
+}
