@@ -1,15 +1,24 @@
 {
   "name": "@ares/os",
   "version": "1.0.0",
-  "description": "Operating system utilities",
+  "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "operating",
-    "system"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rstefani87info/ares-os.git"
+  },
   "author": "Roberto Stefani",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rstefani87info/ares-os/issues"
+  },
+  "homepage": "https://github.com/rstefani87info/ares-os#readme",
+  "dependencies": {
+    "@ares/files": "github:rstefani87info/ares-files#master",
+    "os": "^0.1.2"
+  }
 }
